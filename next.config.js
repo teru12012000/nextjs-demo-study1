@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const { createVanillaExtractPlugin } = require("@vanilla-extract/next-plugin")
+const withVanillaExtract = createVanillaExtractPlugin()
 
-module.exports = nextConfig
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    images: {
+        domains: ["images.dog.ceo", "cdn2.thecatapi.com"],
+    },
+}
+
+module.exports = withVanillaExtract(nextConfig)
