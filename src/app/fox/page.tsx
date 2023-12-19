@@ -1,13 +1,14 @@
 import ReloadButton from "@/components/common/reloadButton"
-import { getSSR } from "@/model/SSR"
+import { getSSG } from "@/model/SSG"
 import ja from "@/shared/i18n/ja"
 import Image from "next/image"
-const Cat = async () => {
-    const data = await getSSR()
+
+const Fox = async () => {
+    const data = await getSSG()
 
     return (
         <main>
-            <h1>{ja.cat.title}</h1>
+            <h1>{ja.fox.title}</h1>
             <div
                 style={{
                     marginTop: "10px",
@@ -19,7 +20,7 @@ const Cat = async () => {
                             <Image
                                 width={320}
                                 height={240}
-                                src={data[0].url}
+                                src={data.image}
                                 alt=""
                             />
                             <div>
@@ -33,4 +34,4 @@ const Cat = async () => {
     )
 }
 
-export default Cat
+export default Fox

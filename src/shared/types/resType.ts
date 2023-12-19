@@ -9,3 +9,8 @@ export type catType = {
     width: number
     height: number
 }
+
+export type foxType = {
+    image: string
+    link: string
+}

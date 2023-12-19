@@ -8,6 +8,7 @@ const ja = {
         menu: "メニュー",
         goDogPage: "犬の画像",
         goCatPage: "猫の画像",
+        goFoxPage: "きつねの画像",
     },
     dog: {
         title: "犬のランダム画像",
@@ -17,6 +18,9 @@ const ja = {
     },
     reloadButton: {
         reloadButton: "別の画像",
+    },
+    fox: {
+        title: "きつねのランダム画像",
     },
 }
 

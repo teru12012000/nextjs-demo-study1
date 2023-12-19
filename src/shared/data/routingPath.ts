@@ -10,4 +10,8 @@ export const allRoutingPath: routingPath[] = [
         path: "/cat",
         title: ja.home.goCatPage,
     },
+    {
+        path: "/fox",
+        title: ja.home.goFoxPage,
+    },
 ]

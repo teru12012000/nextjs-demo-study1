@@ -13,7 +13,7 @@ const Dog = () => {
     )
 
     return (
-        <>
+        <main>
             <h1>{ja.dog.title}</h1>
             <div
                 style={{
@@ -40,7 +40,7 @@ const Dog = () => {
                     </div>
                 )}
             </div>
-        </>
+        </main>
     )
 }
 
