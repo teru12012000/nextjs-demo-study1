@@ -1,6 +1,6 @@
 export type dogType = {
-    message: string
-    status: string
+    fileSizeBytes: number
+    url: string
 }
 
 export type catType = {
