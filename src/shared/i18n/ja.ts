@@ -17,10 +17,10 @@ const ja = {
         title: "猫のランダム画像(SSR)",
     },
     reloadButton: {
-        reloadButton: "別の画像(SSG)",
+        reloadButton: "別の画像",
     },
     fox: {
-        title: "きつねのランダム画像",
+        title: "きつねのランダム画像(SSG)",
     },
 }
 
