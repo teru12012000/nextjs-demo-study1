@@ -8,7 +8,7 @@ import useSWRImmutable from "swr/immutable"
 
 const Dog = () => {
     const { data, isLoading } = useSWRImmutable(
-        "https://dog.ceo/api/breeds/image/random",
+        "https://random.dog/woof.json",
         getCSR,
     )
 
