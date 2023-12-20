@@ -8,7 +8,7 @@ import useSWRImmutable from "swr/immutable"
 
 const Dog = () => {
     const { data, isLoading } = useSWRImmutable(
-        "http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=tru",
+        "http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true",
         getCSR,
     )
 
