@@ -11,13 +11,13 @@ const ja = {
         goFoxPage: "きつねの画像",
     },
     dog: {
-        title: "犬のランダム画像",
+        title: "犬のランダム画像(CSR)",
     },
     cat: {
-        title: "猫のランダム画像",
+        title: "猫のランダム画像(SSR)",
     },
     reloadButton: {
-        reloadButton: "別の画像",
+        reloadButton: "別の画像(SSG)",
     },
     fox: {
         title: "きつねのランダム画像",
