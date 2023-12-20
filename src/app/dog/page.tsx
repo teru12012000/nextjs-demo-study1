@@ -8,7 +8,7 @@ import useSWRImmutable from "swr/immutable"
 
 const Dog = () => {
     const { data, isLoading } = useSWRImmutable(
-        "http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true",
+        "https://dog.ceo/api/breeds/image/random",
         getCSR,
     )
 
@@ -29,7 +29,7 @@ const Dog = () => {
                                 <Image
                                     width={320}
                                     height={240}
-                                    src={data[0]}
+                                    src={data.url}
                                     alt=""
                                 />
                                 <div>
