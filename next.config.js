@@ -10,6 +10,7 @@ const nextConfig = {
             "cdn2.thecatapi.com",
             "randomfox.ca",
             "random.dog",
+            "cdn.shibe.online",
         ],
     },
 }
