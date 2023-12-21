@@ -1,3 +1,4 @@
+import MainBox from "@/components/common/mainBox"
 import ReloadButton from "@/components/common/reloadButton"
 import { getSSG } from "@/model/SSG"
 import ja from "@/shared/i18n/ja"
@@ -14,21 +15,7 @@ const Fox = async () => {
                     marginTop: "10px",
                 }}
             >
-                <div>
-                    {data ? (
-                        <div>
-                            <Image
-                                width={320}
-                                height={240}
-                                src={data.image}
-                                alt=""
-                            />
-                            <div>
-                                <ReloadButton />
-                            </div>
-                        </div>
-                    ) : null}
-                </div>
+                <div>{data ? <MainBox imageURL={data.image} /> : null}</div>
             </div>
         </main>
     )

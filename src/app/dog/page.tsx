@@ -1,5 +1,6 @@
 "use client"
 
+import MainBox from "@/components/common/mainBox"
 import ReloadButton from "@/components/common/reloadButton"
 import { getCSR } from "@/model/CSR"
 import ja from "@/shared/i18n/ja"
@@ -23,21 +24,7 @@ const Dog = () => {
                 {isLoading ? (
                     <div>isLoading</div>
                 ) : (
-                    <div>
-                        {data ? (
-                            <div>
-                                <Image
-                                    width={320}
-                                    height={240}
-                                    src={data.url}
-                                    alt=""
-                                />
-                                <div>
-                                    <ReloadButton />
-                                </div>
-                            </div>
-                        ) : null}
-                    </div>
+                    <div>{data ? <MainBox imageURL={data.url} /> : null}</div>
                 )}
             </div>
         </main>
