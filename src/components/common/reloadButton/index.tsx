@@ -1,6 +1,7 @@
 "use client"
 
 import ja from "@/shared/i18n/ja"
+
 import styles from "./style.css"
 
 const ReloadButton = () => {

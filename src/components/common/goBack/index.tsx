@@ -1,8 +1,9 @@
 "use client"
 
-import ja from "@/shared/i18n/ja"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+
+import ja from "@/shared/i18n/ja"
 
 const GoBack = () => {
     const path = usePathname()

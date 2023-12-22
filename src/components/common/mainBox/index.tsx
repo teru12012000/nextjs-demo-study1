@@ -1,5 +1,6 @@
-import ReloadButton from "../reloadButton"
 import Image from "next/image"
+
+import ReloadButton from "../reloadButton"
 
 interface props {
     imageURL: string

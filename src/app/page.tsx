@@ -1,10 +1,9 @@
-import Containar from "@/components/common/containar"
-import Header from "@/components/common/header"
+import Link from "next/link"
+
 import RouterButton from "@/components/ui/routerButton"
 import { allRoutingPath } from "@/shared/data/routingPath"
 import ja from "@/shared/i18n/ja"
 import { routingPath } from "@/shared/types/routingPath"
-import Link from "next/link"
 
 export default function Home() {
     return (
