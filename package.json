@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.14.0",
+    "@yamada-ui/react": "^1.0.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",

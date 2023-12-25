@@ -22,6 +22,9 @@ const ja = {
     fox: {
         title: "きつねのランダム画像(SSG)",
     },
+    explanationModal: {
+        closeButton: "閉じる",
+    },
 }
 
 export default ja

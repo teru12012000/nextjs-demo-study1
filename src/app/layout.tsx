@@ -1,3 +1,4 @@
+import { UIProvider } from "@yamada-ui/react"
 import { Metadata } from "next"
 import { Inter } from "next/font/google"
 
@@ -22,9 +23,11 @@ export default function RootLayout({
     return (
         <html lang="ja">
             <body className={inter.className}>
-                <Header title={ja.header.title} />
-                <GoBack />
-                <Containar>{children}</Containar>
+                <UIProvider>
+                    <Header title={ja.header.title} />
+                    <GoBack />
+                    <Containar>{children}</Containar>
+                </UIProvider>
             </body>
         </html>
     )
