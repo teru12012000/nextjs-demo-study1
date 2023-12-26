@@ -8,7 +8,14 @@ import { routingPath } from "@/shared/types/routingPath"
 export default function Home() {
     return (
         <>
-            <h1>{ja.home.title}</h1>
+            <h1
+                style={{
+                    fontSize: "30px",
+                    fontWeight: "bold",
+                }}
+            >
+                {ja.home.title}
+            </h1>
             <div
                 style={{
                     marginTop: "30px",

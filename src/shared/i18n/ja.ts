@@ -23,6 +23,7 @@ const ja = {
         title: "きつねのランダム画像(SSG)",
     },
     explanationModal: {
+        openButton: "解説",
         closeButton: "閉じる",
     },
 }

@@ -1,19 +1,15 @@
 "use client"
 
-import ja from "@/shared/i18n/ja"
+import { Button } from "@yamada-ui/react"
 
-import styles from "./style.css"
+import ja from "@/shared/i18n/ja"
 
 const ReloadButton = () => {
     const handleClick = () => {
         window.location.reload()
     }
 
-    return (
-        <button className={styles.btn} onClick={handleClick}>
-            {ja.reloadButton.reloadButton}
-        </button>
-    )
+    return <Button onClick={handleClick}>{ja.reloadButton.reloadButton}</Button>
 }
 
 export default ReloadButton

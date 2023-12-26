@@ -12,7 +12,14 @@ const Header = (props: props) => {
                     padding: "10px",
                 }}
             >
-                <h1>{props.title}</h1>
+                <h1
+                    style={{
+                        fontSize: "30px",
+                        fontWeight: "bold",
+                    }}
+                >
+                    {props.title}
+                </h1>
             </header>
         </div>
     )

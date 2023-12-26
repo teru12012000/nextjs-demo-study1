@@ -12,7 +12,6 @@ import {
 import ja from "@/shared/i18n/ja"
 
 interface props {
-    buttonTitle: string
     modalHeader: string
     modalBody: string
 }
@@ -21,7 +20,7 @@ const ExplanationModal = (props: props) => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     return (
         <div>
-            <Button onClick={onOpen}>{props.buttonTitle}</Button>
+            <Button onClick={onOpen}>{ja.explanationModal.openButton}</Button>
             <Modal isOpen={isOpen} onClose={onClose}>
                 <ModalHeader>{props.modalHeader}</ModalHeader>
                 <ModalBody>{props.modalBody}</ModalBody>
