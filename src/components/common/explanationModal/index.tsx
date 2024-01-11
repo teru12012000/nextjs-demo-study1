@@ -18,6 +18,7 @@ interface props {
 
 const ExplanationModal = (props: props) => {
     const { isOpen, onOpen, onClose } = useDisclosure()
+
     return (
         <div>
             <Button onClick={onOpen}>{ja.explanationModal.openButton}</Button>
