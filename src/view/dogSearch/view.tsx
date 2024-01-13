@@ -21,7 +21,7 @@ const DogSearchView = (props: props) => {
                 ) : (
                     <div>
                         {props.data ? (
-                            <MainBox imageURL={props.data.url} />
+                            <MainBox imageURL={props.data.message} />
                         ) : null}
                     </div>
                 )}

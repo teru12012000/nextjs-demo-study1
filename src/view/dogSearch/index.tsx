@@ -8,7 +8,7 @@ import DogSearchView from "./view"
 
 const DogSearch = () => {
     const { data, isLoading } = useSWRImmutable(
-        "https://random.dog/woof.json",
+        "https://dog.ceo/api/breeds/image/random",
         getCSR,
     )
 
