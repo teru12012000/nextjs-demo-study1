@@ -1,8 +1,7 @@
+import styles from "./style.css"
 import MainBox from "../../components/common/mainBox"
 import ja from "../../shared/i18n/ja"
 import { foxType } from "../../shared/types/resType"
-
-import styles from "./style.css"
 
 interface props {
     data: foxType

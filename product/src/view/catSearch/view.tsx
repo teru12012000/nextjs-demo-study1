@@ -1,8 +1,7 @@
+import styles from "./style.css"
 import MainBox from "../../components/common/mainBox"
 import ja from "../../shared/i18n/ja"
 import { catType } from "../../shared/types/resType"
-
-import styles from "./style.css"
 
 interface props {
     data: catType[]

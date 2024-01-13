@@ -1,11 +1,10 @@
 import Link from "next/link"
 
+import styles from "./style.css"
 import RouterButton from "../../components/ui/routerButton"
 import { allRoutingPath } from "../../shared/data/routingPath"
 import ja from "../../shared/i18n/ja"
 import { routingPath } from "../../shared/types/routingPath"
-
-import styles from "./style.css"
 
 const TopView = () => {
     return (

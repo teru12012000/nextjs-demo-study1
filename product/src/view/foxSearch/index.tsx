@@ -1,6 +1,5 @@
-import { getSSG } from "../../model/SSG"
-
 import FoxSearchView from "./view"
+import { getSSG } from "../../model/SSG"
 
 const FoxSearch = async () => {
     const data = await getSSG()

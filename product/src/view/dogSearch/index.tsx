@@ -2,9 +2,8 @@
 
 import useSWRImmutable from "swr/immutable"
 
-import { getCSR } from "../../model/CSR"
-
 import DogSearchView from "./view"
+import { getCSR } from "../../model/CSR"
 
 const DogSearch = () => {
     const { data, isLoading } = useSWRImmutable(
