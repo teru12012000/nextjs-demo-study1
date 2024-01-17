@@ -59,7 +59,7 @@ const config: StorybookConfig = {
         options: {},
     },
     docs: {
-        autodocs: "tag",
+        autodocs: true,
     },
     webpackFinal: async (config) => {
         merge(config, {

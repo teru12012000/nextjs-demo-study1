@@ -1,6 +1,6 @@
-interface props {
+export interface props {
     /**
-     * ヘッダーのタイトル
+     *  ヘッダーのタイトル
      */
     title: string
 }
