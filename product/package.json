@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.14.0",
@@ -17,13 +19,31 @@
     "swr": "^2.2.4"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.9",
+    "@storybook/addon-interactions": "^7.6.9",
+    "@storybook/addon-links": "^7.6.9",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/addon-styling-webpack": "^0.0.6",
+    "@storybook/blocks": "^7.6.9",
+    "@storybook/nextjs": "^7.6.9",
+    "@storybook/react": "^7.6.9",
+    "@storybook/test": "^7.6.9",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@vanilla-extract/next-plugin": "^2.3.2",
+    "@vanilla-extract/webpack-plugin": "^2.3.1",
+    "add": "^2.0.6",
+    "css-loader": "^6.9.0",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
     "eslint-plugin-import": "^2.29.1",
-    "typescript": "^5"
+    "eslint-plugin-storybook": "^0.6.15",
+    "mini-css-extract-plugin": "^2.7.7",
+    "storybook": "^7.6.9",
+    "style-loader": "^3.3.4",
+    "typescript": "^5",
+    "webpack-merge": "^5.10.0",
+    "yarn": "^1.22.21"
   }
 }
