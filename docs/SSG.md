@@ -7,3 +7,30 @@
 ## レンダリングまでの流れ
 
 ![SSR](./assets/SSG.png)
+
+1. 外部データが必要であれば API を叩く
+1. その API データを取得する
+1. レンダリングする
+1. web サーバーにリクエストを送る
+1. レンダリングした HTML と CSS を返す
+
+## 利点と欠点
+
+### 利点
+
+- 静的サイトには強い
+
+### 欠点
+
+- 動的な処理(Todo)などは更新が遅い
+
+## どのようなプロジェクトに向いているか
+
+- 静的サイト
+- 更新頻度の低いブログ
+
+## 参考資料
+
+- [文献 1](https://zenn.dev/rh820/articles/6234843d726ed3)
+- [文献 2](https://qiita.com/marl0401/items/d5f0dd91e06c8b52a49d)
+- [動画](https://youtu.be/QckiJezDS_E?si=nssWUkcBWQfB6hay)
