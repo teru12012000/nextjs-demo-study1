@@ -8,11 +8,7 @@ import ja from "../../../shared/i18n/ja"
 const GoBack = () => {
     const path = usePathname()
 
-    return (
-        <div>
-            {path !== "/" ? <Link href="/">{ja.header.goBack}</Link> : null}
-        </div>
-    )
+    return <div>{path !== "/" && <Link href="/">{ja.header.goBack}</Link>}</div>
 }
 
 export default GoBack

@@ -1,21 +1,12 @@
 import { ReactNode } from "react"
 
+import styles from "./style.css"
+
 interface props {
     children: ReactNode | ReactNode[]
 }
 
 const Containar = (props: props) => {
-    return (
-        <main
-            style={{
-                width: "75%",
-                height: "100vh",
-                margin: "20px auto",
-                textAlign: "center",
-            }}
-        >
-            {props.children}
-        </main>
-    )
+    return <main className={styles.conatiner}>{props.children}</main>
 }
 export default Containar

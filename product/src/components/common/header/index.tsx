@@ -1,13 +1,7 @@
 export interface props {
-    /**
-     *  ヘッダーのタイトル
-     */
     title: string
 }
 
-/**
- * アプリのヘッダーコンポーネントです
- */
 const Header = (props: props) => {
     return (
         <div>
